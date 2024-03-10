@@ -1,0 +1,16 @@
+[
+    { 
+      "id": "1",
+      "category": "Textile",
+      "name": "不快樂台北",
+      "sku": "sku_313354",
+      "price": 82,
+      "image": "/101.jpeg",
+      "description": "9/28-9/30",
+      "description_long": "",
+      "currency": "USD",
+      "countInStock": 10    
+    }
+
+  ]
+  

@@ -1,0 +1,175 @@
+
+
+.container {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .footer {
+   /* display: grid; */
+   width:100%;
+   padding-top: 2rem;
+   padding-right: 1.5rem;
+   padding-left: 1.5rem;
+   /* gap: 1em; */
+   overflow: hidden;
+ }
+ 
+ @media (min-width: 768px) {
+   .footer {
+     /* display: grid; */
+     padding-top: 2rem;
+     /* padding-right: 2rem;
+     padding-left: 2rem; */
+     /* gap: 1em; */
+     overflow: hidden;
+   }
+ }
+ 
+ .hrFooterLine {
+   grid-area: hrfooterline;
+   margin: 25px auto 25px;
+   padding: 0;
+   width: 100%;
+   border: 1px solid #001e00;
+   /* border-top: solid 2px;
+   border-color: #001e00; */
+   opacity: 1;
+   border-radius: 0.2rem;
+ }
+ 
+ .content {
+   grid-area: content;
+ }
+ 
+ .content2 {
+   grid-area: content2;
+ }
+ 
+ .followUs {
+   grid-area: followUs;
+ }
+ 
+ .followUs2 {
+   grid-area: followUs2;
+ }
+ 
+ .contactUs {
+   grid-area: contactUs;
+ }
+ 
+ .contactUs2 {
+   grid-area: contactUs2;
+ }
+ 
+ .Location {
+   grid-area: location;
+ }
+ 
+ .iconsArea {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   /* align-items: center; */
+ }
+ 
+ .icon {
+   display: block;
+   width: 2rem;
+   height: 2rem;
+   padding-right: 0.5rem;
+ }
+ 
+
+ 
+ /* p {
+   font-family: "YuPearl-Medium","Helvetica";
+   font-style: normal;
+   
+   font-size: 15px;
+   line-height: 22.5px;
+ 
+   color: #000000;
+ } */
+
+.box {
+   height: 138px;
+   width: 146px;
+ }
+ 
+ .box .rectangle {
+   display:flex;
+   align-items: center;
+   background-color: #fefcf9;
+   border: 1px solid;
+   border-color: #000000;
+   border-radius: 50px;
+   height: 138px;
+  
+   position: relative;
+   padding:2rem;
+   width: 146px;
+ }
+ 
+ .box2 {
+ 
+   height: 138px;
+   width: 285px;
+ }
+ 
+ .box2 .rectangle2 {
+   display: flex;
+   justify-content: center;
+   background-color: #fffde0;
+   border: 1px solid;
+   border-color: #000000;
+   border-radius: 50px;
+   height: 138px;
+   position: relative;
+   width: 285px;
+   align-content: center;
+   align-items: center;
+ }
+
+ .backbtn{
+   display: flex;
+   justify-content: center;
+   -webkit-text-stroke:1px #000000 ;
+   color:transparent;
+   font-family: "jf-openhuminn-2.0-Regular";
+   font-size: 32px;
+   font-weight: 400;
+   text-align: center;
+   align-content: center;
+   align-items: center;
+   position:unset !important;
+}
+
+.box3 {
+   height: 337px;
+   width: 430px;
+ }
+ 
+ .box3 .rectangle3 {
+   display: flex;
+   justify-content: center;
+   background-color: #fefcf9;
+   border: 1px solid;
+   border-color: #000000;
+   border-radius: 50px 50px 0px 0px;
+   position: relative;
+   width: 100vw;
+   align-content: center;
+   align-items: center;
+   padding:2rem;
+   margin:auto;
+ }
+ 
+ .hrline{
+   border: 1px solid #001e00;
+   /* border-top: solid 2px;
+   border-color: #001e00; */
+   opacity: 1;
+   border-radius: 0.2rem;
+ }

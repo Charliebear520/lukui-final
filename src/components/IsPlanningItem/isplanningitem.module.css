@@ -1,0 +1,39 @@
+.item {
+    /* background-color: #fbfbfb;
+    border-radius: 1%;
+    border: solid #faf7f2 1px;
+    padding: 2rem; */
+    height: 190px;
+    width: 310px;
+    padding-left: 4rem;
+  }
+  
+  .info {
+    padding: 1.2rem;
+  }
+  
+  .category {
+    opacity: 0.4;
+    margin-bottom: 0.2rem;
+  }
+  
+  .name {
+    color:black;
+    opacity: 0.6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    color:black;  
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    align-self: center;
+    color: #8183ff;
+  }
+  
+  .textGray {
+    opacity: 0.6;
+  }

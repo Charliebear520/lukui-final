@@ -1,0 +1,60 @@
+.head_bar{
+    display:flex;
+
+}
+
+.info_bar{
+    display:flex;
+    flex-direction: column;
+    padding-right:4rem;
+}
+
+.info_date{
+    color:black;
+    font-family: "jf-openhuninn-2.0-Regular",Helvetica;
+    font-size: 24px;
+}
+
+.info_title{
+    color:black;
+    font-family: "jf-openhuninn-2.0-Regular",Helvetica;
+    font-size: 32px;
+}
+
+.info_description{
+    color:black;
+    font-family: "jf-openhuninn-2.0-Regular",Helvetica;
+    font-size: 14px;
+}
+
+.head{
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+}
+
+.edit{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fefcf9;
+    border:1px #000000 solid;
+    border-radius:30px;
+    width:56px;
+    height:105px;
+}
+
+.edit_description{
+    display:flex;
+    justify-content: center;
+    height:31px;
+    width:31px;
+    align-items: center;
+    /* align-self: stretch; */
+    color: #000000;
+    font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    /* letter-spacing: 2.8px; */
+}

@@ -1,0 +1,17 @@
+[
+    { 
+      "id": "1",
+      "category": "首頁>推薦景點",
+      "name": "快樂北北基",
+      "sku": "sku_313354",
+      "price": 82,
+      "image": "/北北基.jpeg",
+      "description": "9/28-9/30",
+      "description_long": "這次旅費只有1500，然後美美還沒說到底要不要去.",
+      "site": "台北市信義區信義路五段7號",
+      "time": "星期一 上午11時-下午9:30",
+      "website":"stage.taipei101mail.com.tw"
+    }
+
+  ]
+  

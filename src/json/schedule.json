@@ -1,0 +1,41 @@
+[
+    { 
+      "id": "1",
+      "category": "Textile",     
+      "date": "9/28",
+        "name": "龍山寺",
+        "start_time":"11:00",
+        "end_time":"14:00",
+        "image": "src/images/基隆快不快樂.png",
+        "description": "臺北市萬華區",
+        "description_long": "這裡應該要打備註，備註的內容是備註。備註的內容不是備註。"
+    },
+    {
+      "id": "2",
+      "category": "Textile",
+      "name": "土銀展示館",
+      "date": "9/29",
+      "start_time":"14:30",
+      "end_time":"16:00",
+      "price": 76,
+      "image": "src/images/不快樂台北.png",
+      "description": "臺北市中正區",
+      "description_long": "無備註",
+      "currency": "USD",
+      "countInStock": 3    
+    },
+    {
+      "id": "3",
+      "category": "Tableware",
+      "name": "北投溫泉",
+      "date": "9/30",
+      "price": 6,
+      "image": "src/images/好快樂新北耶誕城.png",
+      "description": "臺北市北投區",
+      "description_long": "這裡應該要打備註，備註的內容是備註。備註的內容不是備註。",
+      "currency": "USD",
+      "countInStock": 6 
+    }
+
+  ]
+  
