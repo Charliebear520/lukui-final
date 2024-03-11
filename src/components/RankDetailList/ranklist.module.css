@@ -1,0 +1,150 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf7f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right:2em;
+}
+.col {
+  padding-left: 0px !important;
+}
+
+.head {
+  display: grid;
+  /* margin: auto; */
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: #000000;
+  font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.44px;
+  line-height: 30px;
+  margin-top: 1rem;
+  /* margin-left: 1rem; */
+  white-space: nowrap;
+  width: 102px;
+  margin-bottom: 10px;
+}
+.logo {
+  -webkit-text-stroke: 1px #000000;
+  color: #ffffff;
+  position: relative;
+  right: 15px;
+  font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.704px;
+  align-self: start;
+  text-wrap: nowrap;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #000;
+  background-color: #ffdfcd;
+  width: 180px;
+  max-width: 100%;
+  padding: 17px 20px;
+  z-index: 2;
+  margin-bottom: -20%;
+}
+.rectangle {
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 0px 0px 0px 100px;
+  height: 18px;
+  right: 15px;
+  top: 35px;
+  position: relative;
+  width: 16px;
+  z-index: 3;
+}
+
+.description {
+  color: #8b8b8b;
+  font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.31px;
+  line-height: 21px;
+  /* position: fixed;
+    top: 0; */
+  white-space: nowrap;
+  width: 90px;
+}
+
+.photo {
+  margin-top: 2rem;
+  border-radius: 10px;
+  object-fit: cover;
+  width:154px;
+  height: 200px;
+}
+.photobox{
+  display:flex;
+  justify-content: center;
+}
+
+.rankbox {
+  display: flex;
+  /* gap:10px; */
+}
+
+.rankinfobox{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+.togglebox{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infobox{
+  display:flex;
+  margin-top:2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hrline{
+  margin-top: 25px;
+  padding: 0;
+  width: 90%;
+  border: 0.5px solid #001e00;
+  opacity: 1;
+  border-radius: 0.2rem;
+}
+
+.likebox{
+  display:flex;
+  justify-content: center;
+  height:40px;
+  width:40px;
+  border:0.5px solid rgb(244, 244, 244);
+  border-radius: 50%;
+  color:#FF7878;
+  background-color: #FFDEDE;
+  box-shadow: 0px 4px 5px #00000040;
+}
+
+.addbox{
+  
+  color:#884848;
+  background-color: #FFBFBF;
+}
+
+.drawer{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
