@@ -1,7 +1,11 @@
+import UserInfoList from "@/components/UserInfoList"
+
 export const metadata={
     title:"Blog",
 }
 
-export default function Blog(){
-    return <h1>My Blog</h1>
+export default function Userinfo(){
+    return (
+    <UserInfoList/>
+        )
 }

@@ -1,0 +1,45 @@
+.section{
+    background-color: #FFCCCC;
+    padding:3rem;
+    height:100vh
+}
+
+.section1{
+    background-color: #FAF7F2;
+    width:425px;
+    height:749px;
+    border-radius: 30px;
+    padding:2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.infotext{
+    font-family: 'jf-openhuninn-2.0';
+    font-size: 18px;
+}
+
+.infoptext{
+    font-family: 'YuPearl';
+    font-size: 14px;
+}
+
+@media (max-width:576px) {
+    .infotext{
+        font-size:16px;
+    }
+    .infoptext{
+        font-size:12px;
+    }
+}
+
+.infobox{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
