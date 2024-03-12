@@ -13,7 +13,7 @@ export default function IsProcessPlanList({ processes }) {
         </div>
       </div>
 
-      <Row gutter={[0, 32]} className={styles.section}>
+      <Row  className={styles.section}>
         <Row
           sm={{ span: 24 }}
           md={{ span: 24 }}

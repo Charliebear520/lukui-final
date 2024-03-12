@@ -15,7 +15,7 @@ export default function ReadyGoPlanList({ collections }) {
         </div>
       </div>
 
-      <Row gutter={[0, 32]} className={styles.section}>
+      <Row  className={styles.section}>
         <Row className={styles.section2}>
           {collections.map((collection) => (
             <Col
