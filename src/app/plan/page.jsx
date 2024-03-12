@@ -38,6 +38,14 @@ export default function Plan() {
         >
           <IsPlanningList plans={plans} />
         </Col>
+        <Col
+          sm={{ span: 24 }}
+          md={{ span: 24 }}
+          lg={{ span: 24 }}
+          xl={{ span: 24 }}
+        >
+          <IsPlanningList plans={plans} />
+        </Col>
       </Row>
     </>
   );

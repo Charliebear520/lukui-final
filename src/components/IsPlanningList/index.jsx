@@ -30,7 +30,7 @@ export default function IsPlanningList({ plans }) {
           },
           // when window width is >= 768px
           768: {
-            slidesPerView: 5,
+            slidesPerView: 4,
           },
           1024: {
             slidesPerView: 5,
