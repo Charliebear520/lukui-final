@@ -31,7 +31,7 @@ export default function ReviewList({ reviews }) {
       >
         <div className={styles.head}>
           <h1 className={styles.logo}>附近景點</h1>
-          {/* <h4 className={styles.name}>@ntuedtd_ig</h4> */}
+         
         </div>
         <div className={styles.rectangle} />
       </Col>
@@ -74,7 +74,7 @@ export default function ReviewList({ reviews }) {
 
               <p className={styles.name}>{review.name}</p>
               <p className={styles.description}>{review.description}</p>
-              {/* <p>{review.comment}</p> */}
+              
             </SwiperSlide>
           ))}
         </Swiper>
