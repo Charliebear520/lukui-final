@@ -2,10 +2,12 @@ import { Row, Col } from "antd";
 import ReadyGoPlanList from "@/components/ReadyGoPlanList";
 import IsProcessPlanList from "@/components/IsProcessPlanList";
 import IsPlanningList from "@/components/IsPlanningList";
+import HistoryList from "@/components/HistoryList";
 
 import processes from "../../json/process.json";
 import collections from "../../json/collection.json";
 import plans from "../../json/planning.json";
+import historys from "../../json/history.json"
 
 export default function Plan() {
   return (
@@ -44,7 +46,7 @@ export default function Plan() {
           lg={{ span: 24 }}
           xl={{ span: 24 }}
         >
-          <IsPlanningList plans={plans} />
+          <HistoryList historys={historys} />
         </Col>
       </Row>
     </>

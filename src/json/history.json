@@ -1,40 +1,83 @@
 [
-    { 
-      "id": "1",
-      "category": "Textile",
-      "name": "龍山寺",
-      "sku": "sku_313354",
-      "price": 82,
-      "image": "src/images/基隆快不快樂.png",
-      "description": "臺北市萬華區",
-      "description_long": "Keep warm with the cozy Domino wool throw from Klippan Yllefabrik. Klippan Yllefabric was founded in 1879 with a philosophy to combine Swedish design with the traditional knowledge of textiles. This particular throw has a simple, classic pattern design and is available in different colors.",
-      "currency": "USD",
-      "countInStock": 10    
-    },
-    {
-      "id": "2",
-      "category": "Textile",
-      "name": "土銀展示館",
-      "sku": "sku_313355",
-      "price": 76,
-      "image": "src/images/不快樂台北.png",
-      "description": "臺北市中正區",
-      "description_long": "The Pom Pom cushion 45x45 cm from the Swedish By On is a pure dream for those who love soft and cosy styles of decor. This wonderful cushion is covered in small, fluffy Pom Poms, which quickly helps you create an inviting and snug feel on your corner sofa, your favourite recliner, or on the bed in the bedroom.",
-      "currency": "USD",
-      "countInStock": 3    
-    },
-    {
-      "id": "3",
-      "category": "Tableware",
-      "name": "北投溫泉",
-      "sku": "sku_313356",
-      "price": 6,
-      "image": "src/images/好快樂新北耶誕城.png",
-      "description": "臺北市北投區",
-      "description_long": "The beautiful Rustic mug from House Doctor is made of ceramics and has an appealing glaze in grey and blue that contributes to a rustic feeling. Since it's handmade, every mug is unique. Match it with other tableware in the Rustic series.",
-      "currency": "USD",
-      "countInStock": 6 
-    }
-
-  ]
-  
+  {
+    "id": "1",
+    "category": "Tableware",
+    "name": "北投溫泉",
+    "image": "/地熱谷.png",
+    "description": "臺北市北投區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "2",
+    "category": "Tableware",
+    "name": "北投溫泉2",
+    "image": "/華山.png",
+    "description": "臺北市中正區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "3",
+    "category": "Tableware",
+    "name": "北投溫泉2",
+    "image": "/陽明山.png",
+    "description": "臺北市中正區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "4",
+    "category": "Tableware",
+    "name": "北投溫泉2",
+    "image": "/故宮.png",
+    "description": "臺北市中正區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "5",
+    "category": "Temple",
+    "name": "龍山寺",
+    "image": "/動物園.jpeg",
+    "description": "臺北市萬華區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "6",
+    "category": "museum",
+    "name": "土銀展示館",
+    "image": "/台銀.png",
+    "description": "臺北市中正區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "7",
+    "category": "Temple",
+    "name": "龍山寺",
+    "image": "/龍山寺.jpeg",
+    "description": "臺北市萬華區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "8",
+    "category": "museum",
+    "name": "土銀展示館",
+    "image": "/台銀.png",
+    "description": "臺北市中正區",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "9",
+    "category": "Tableware",
+    "name": "北投溫泉",
+    "image": "/地熱谷.png",
+    "description": "臺北市北投區",
+    "status":"營業中",
+    "end_time":"18:00"
+  }
+]

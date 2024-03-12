@@ -1,128 +1,100 @@
+.container {
+  overflow: hidden;
+}
+
 .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #faf7f2;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    padding-left: 3em;
-    /* margin: 2em; */
-  }
-.col{
-  padding-left: 0px !important;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-  .head {
-    display: grid;
-    /* margin: auto; */
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .name {
-    color: #000000;
-    font-family: "jf-openhuninn-2.0-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: -0.44px;
-    line-height: 30px;
-    margin-top:1rem;
-    /* margin-left: 1rem; */
-    white-space: nowrap;
-    width: 102px;
-    margin-bottom:10px;
-  }
-  .logo {
-    -webkit-text-stroke: 1px #000000;
-    color: #ffffff;
-    position:relative;
-    right:15px;
-    font-family: "jf-openhuninn-2.0-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: -0.704px;
-    align-self: start;
-    text-wrap: nowrap;
-    border-radius: 0px 10px 10px 0px;
-    border: 1px solid #000;
-    background-color: #ffdfcd;
-    width: 180px;
-    max-width: 100%;
-    padding: 17px 20px;
-    z-index: 2;
-    margin-bottom: -20%;
-  }
-  .rectangle{
-    background-color: #fff;
-    border: 1px solid;
-    border-color: #000000;
-    border-radius: 0px 0px 0px 100px;
-    height: 18px;
-    right: 15px;
-    top:35px;
-    position: relative;
-    width: 16px;
-    z-index: 3;
-  }
-
-  .description {
-    color: #8b8b8b;
-    font-family: "jf-openhuninn-2.0-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: -0.31px;
-    line-height: 21px;
-    /* position: fixed;
-    top: 0; */
-    white-space: nowrap;
-    width: 90px;
-  }
-  
-  .swiper {
-    
-    width: 100%;
-    height: 100%;
-  }
-  
-.mySwiper{
-  border:1px solid;
-  background-color: #faf7f2;
+  margin: 2em 0 2em 0.5%;
+  background-color: #FFDFCD;
+  border: 1px solid;
   border-color: #000000;
-  border-radius: 0px 20px 20px 0px;
-  padding-left:1rem !important;
-  
+  border-radius: 20px;
+
+  position: relative;
+  bottom: 4rem;
+  width: 100%;
+  left: 1em;
+  top: 1em;
 }
 
-  .swiper-pagination-bullets {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .swiper_slide {
-    text-align: left;
-    font-size: 18px;
-    /* background: #fff; */
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .photo {
-    /* display: flex; */
-    margin-top: 2rem;
-    /* margin-left:1rem; */
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
-  
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-  }
+.section2 {
+  position: relative;
+  right: 0.5rem;
+  bottom: 0.5rem;
 
+  width: 100%;
+  background-color: #fefcf9;
+  padding: 1em;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 20px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 5rem;
+}
+.name {
+  -webkit-text-stroke: 1px #8b8b8b;
+  color: #5f5f5f;
+  font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.31px;
+  line-height: 21px;
+
+  text-align: center;
+}
+.logo {
+  color: #000000;
+  font-family: "jf-openhuninn-2.0-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.53px;
+  line-height: 36px;
+}
+
+.mySwiper {
+  padding: 1rem 0 3rem 0;
+}
+
+.titlebox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 2rem;
+}
+
+.title {
+  font-family: "jf-openhuninn-2.0";
+  font-size: x-large;
+}
+
+.hrline {
+  margin: 2% 1% 0 1%;
+  padding: 0;
+  width: 100%;
+  border: 0.5px solid #001e00;
+  opacity: 1;
+  border-radius: 0.2rem;
+}
+
+.description{
+  font-family: 'jf-openhuninn-2.0';
+  font-size: medium;
+  color:#606060;
+  margin-right:10%;
+}
+
+.row{
+  padding:0 2rem 0 2rem;
+}

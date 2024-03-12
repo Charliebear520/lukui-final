@@ -1,6 +1,6 @@
 "use client";
 
-import { Row, Col } from "antd";
+import { Row, Col, Button } from "antd";
 import IsPlanningItem from "../IsPlanningItem";
 import styles from "./isplanning.module.css";
 import Divider from "antd";
@@ -17,7 +17,9 @@ export default function IsPlanningList({ plans }) {
     <Row className={styles.row}>
       <Col span={24} className={styles.titlebox}>
         <h1 className={styles.title}>規劃中</h1>
-        <p className={styles.description}>查看全部 </p>
+        <Button type="link" className={styles.description}>
+          <p>查看全部 </p>
+        </Button>
       </Col>
       <hr className={styles.hrline} />
       <Swiper
@@ -39,7 +41,7 @@ export default function IsPlanningList({ plans }) {
       >
         <Row>
           {plans.map((plan) => (
-            <SwiperSlide key={plan.id} >
+            <SwiperSlide key={plan.id}>
               <div className={styles.section}>
                 <div className={styles.section2}>
                   <IsPlanningItem plan={plan} />
