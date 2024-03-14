@@ -1,68 +1,56 @@
-import { Row, Col } from "antd";
-import styles from "./mycollectionlist.module.css"
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Link } from "react-router-dom";
+"use client";
 
-export default function MyCollectionList({mycollections}) {
+import { Row, Col, Button } from "antd";
+import MyCollectionItem from "../MyCollectionItem";
+import styles from "./mycollectionlist.module.css";
+import Divider from "antd";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/scrollbar";
+import Link from "next/link";
+import Image from "next/image";
+
+export default function MyCollectionList({ mycollections }) {
   return (
-    <Row gutter={[32, 0]} className={styles.section}>
-    <Col
-      xs={{ span: 24 }}
-      lg={{ span: 24 }}
-      xl={{ span: 24 }}
-      xxl={{ span: 24 }}
-      className={styles.col}
-    >
-  <div className={styles.title_bar}>
-    <p className={styles.title}>我的收藏</p>
-    <p className={styles.more}>查看全部</p>
-  </div>
-      
-    </Col>
-    
-    <>
+    <Row className={styles.row}>
+      <Col span={24} className={styles.titlebox}>
+        <h1 className={styles.title}>我的收藏</h1>
+        <Button type="link" className={styles.description}>
+          <p>查看全部 </p>
+        </Button>
+      </Col>
+      <hr className={styles.hrline} />
       <Swiper
         spaceBetween={30}
-        
-        // scrollbar={{
-        //   hide: false,
-        // }}
-        // modules={[Scrollbar]}
-        // modules={[Pagination]}
         className={styles.mySwiper}
         breakpoints={{
           // when window width is >= 640px
           320: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
           // when window width is >= 768px
           768: {
-            slidesPerView: 3,
+            slidesPerView: 6,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 8,
           },
         }}
       >
-       
-        {mycollections.map((mycollection) => (
-          <SwiperSlide className={styles.swiper_slide} key={mycollection.id}>
-            <Link to={`/mycollections/id/${mycollection.id}`}>
-            <img
-              className={styles.photo}
-              src={mycollection.image}
-              alt={mycollection.name}
-            />
-            </Link>
-        
-            <p className={styles.name}>{mycollection.name}</p>
-            <p className={styles.description}>{mycollection.description}</p>
-            {/* <p>{mycollection.comment}</p> */}
-          </SwiperSlide>
-        ))}
+        <Row>
+          {mycollections.map((mycollection) => (
+            <SwiperSlide key={mycollection.id}>
+              <div className={styles.section}>
+                <div className={styles.section2}>
+                  <MyCollectionItem mycollection={mycollection} />
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Row>
       </Swiper>
-    </>
-  </Row>
+    </Row>
   );
 }
-
