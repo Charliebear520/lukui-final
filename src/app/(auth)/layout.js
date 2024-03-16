@@ -12,7 +12,7 @@ export default function AuthLayout({ children }) {
   const pathname = usePathname();
   return (
     <div>
-      {navLinks.map((link) => {
+      {/* {navLinks.map((link) => {
         const isActive = pathname.startsWith(link.href);
         return (
           <Link
@@ -24,7 +24,7 @@ export default function AuthLayout({ children }) {
           </Link>
         );
       })}
-      <h2>Inner Layout</h2>
+      <h2>Inner Layout</h2> */}
       {children}
     </div>
   );

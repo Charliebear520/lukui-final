@@ -1,4 +1,5 @@
 import "./globals.css";
+import "rsuite/dist/rsuite-no-reset.min.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

@@ -1,0 +1,81 @@
+.section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+    width:100vw;
+    gap:1.25rem;
+}
+
+.title{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size:xx-large;
+    font-family: 'jf-openhuninn-2.0';
+    font-weight:bold ;
+}
+
+.progressbox{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+    font-family: 'jf-openhuninn-2.0';
+}
+
+.boximg{
+    border-radius: 0 0 300px 0;
+}
+
+.rowbox{
+    display: flex;
+    justify-content: center;
+}
+
+.radio{
+    
+    border-radius: 40px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px #00000040 ;
+}
+
+.radiobox{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.registerbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden;
+}
+
+.button{
+    border-radius: 40px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px #00000040;
+    background-color: #FFCCCC;
+    height:55px;
+    font-size: large;
+    font-family: 'YuPearl';
+    font-weight: bold;
+}
