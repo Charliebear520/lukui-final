@@ -1,6 +1,6 @@
 import "./globals.css";
 import "rsuite/dist/rsuite-no-reset.min.css";
-import Header from "../components/Header";
+
 import Footer from "../components/Footer";
 
 export const metadata = {
@@ -15,14 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* <header style={{ backgroundColor: "lightblue", padding: "1rem" }}>
-          <p>Header</p>
-        </header> */}
-        <Header />
+        {/* <Header /> */}
         {children}
-        {/* <footer style={{ backgroundColor: "darkgreen", padding: "1rem" }}>
-          <p>Footer</p>
-        </footer> */}
+
         <Footer />
       </body>
     </html>

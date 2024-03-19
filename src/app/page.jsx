@@ -5,9 +5,10 @@ import { Row,Col } from "antd";
 import IsProcessHomeList from "../components/IsProcessHomeList";
 import ReadyGoHomeList from "@/components/ReadyGoHomeList";
 import ReviewList from "@/components/ReviewList";
-import SuggestList from "@/components/SuggestList";
+import SuggestHomeList from "@/components/SuggestHomeList";
 import RankList from "@/components/RankList";
 import RecentList from "@/components/RecentList";
+import Header from "../components/Header";
 
 import processes from "../json/process.json"
 import collections from "../json/collection.json"
@@ -19,6 +20,7 @@ import recents from "../json/recent.json"
 export default function Home() {
   return (
     <>
+    <Header/>
     <Row>
         <Col
           sm={{ span: 24 }}
@@ -43,7 +45,7 @@ export default function Home() {
           <ReviewList reviews={reviews} />
         </Col>
         <Col>
-          <SuggestList suggests={suggests} />
+          <SuggestHomeList suggests={suggests} />
         </Col>
         <Col>
           <RankList ranks={ranks} />

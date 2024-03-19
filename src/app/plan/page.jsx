@@ -4,17 +4,18 @@ import IsProcessPlanList from "@/components/IsProcessPlanList";
 import IsPlanningList from "@/components/IsPlanningList";
 import HistoryList from "@/components/HistoryList";
 import MyCollectionList from "@/components/MyCollectionLIst";
+import PlanHeader from "@/components/PlanHeader";
 
 import processes from "../../json/process.json";
 import collections from "../../json/collection.json";
 import plans from "../../json/planning.json";
-import historys from "../../json/history.json"
-import mycollections from "../../json/mycollection.json"
+import historys from "../../json/history.json";
+import mycollections from "../../json/mycollection.json";
 
 export default function Plan() {
   return (
     <>
-
+      <PlanHeader />
       <Row>
         <Col
           sm={{ span: 24 }}

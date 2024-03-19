@@ -1,10 +1,16 @@
 import { Row, Col } from "antd";
+import Image from "next/image";
 import styles from "./userinfolist.module.css";
-import { SmileFilled, QuestionCircleFilled ,SettingFilled} from "@ant-design/icons";
+import {
+  SmileFilled,
+  QuestionCircleFilled,
+  SettingFilled,
+} from "@ant-design/icons";
 
 export default function UserInfoList() {
   return (
     <Row>
+      
       <Col
         xs={{ span: 12 }}
         lg={{ span: 6 }}
