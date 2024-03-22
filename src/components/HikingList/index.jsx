@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./suggest.module.css";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 
-export default function SuggestList({ arts }) {
+export default function HikingList({ hikings }) {
   return (
     <Row className={styles.row}>
       <Col
@@ -16,7 +16,7 @@ export default function SuggestList({ arts }) {
         <Col span={24}>
           <div className={styles.titlebox}>
             <h1 className={styles.title1}>因為你喜歡－</h1>
-            <h2 className={styles.title2}>人文藝術</h2>
+            <h2 className={styles.title2}>健行</h2>
           </div>
         </Col>
 
@@ -30,9 +30,9 @@ export default function SuggestList({ arts }) {
         </Col>
 
         <Row>
-          {arts.map((art) => (
+          {hikings.map((hiking) => (
             <Col
-              key={art.id}
+              key={hiking.id}
               sm={{ span: 8 }}
               md={{ span: 8 }}
               lg={{ span: 4 }}
@@ -42,7 +42,7 @@ export default function SuggestList({ arts }) {
                 <div className={styles.section}>
                   <div className={styles.imagebox}>
                     <Image
-                      src={art.image}
+                      src={hiking.image}
                       width={120}
                       height={120}
                       alt="Suggest of art"
@@ -61,8 +61,8 @@ export default function SuggestList({ arts }) {
                   </div>
                 </div>
                 <div className={styles.section2}>
-                  <h1 className={styles.name}>{art.name}</h1>
-                  <p className={styles.description}>{art.description}</p>
+                  <h1 className={styles.name}>{hiking.name}</h1>
+                  <p className={styles.description}>{hiking.description}</p>
                 </div>
               </div>
             </Col>

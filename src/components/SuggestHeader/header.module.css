@@ -1,0 +1,69 @@
+.boximg {
+  border-radius: 0 0 35px 0;
+  object-fit: cover;
+  height: revert-layer;
+
+  z-index: -5;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .boximg {
+    border-radius: 0 0 500px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .boximg {
+    border-radius: 0 0 200px 0;
+  }
+}
+
+.container {
+  height: 286px;
+  overflow: hidden;
+}
+
+.photo {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  height: 100%;
+}
+
+.col {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.titlebox {
+  margin-bottom: 2rem;
+}
+
+.titlebox2 {
+  background: #ffdfcd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+  padding:1em;
+}
+
+.title {
+  font-family: "jf-openhuninn-2.0";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  letter-spacing: -0.022em;
+  -webkit-text-stroke: 1.5px #000000;
+  color: #ffffff;
+
+  /* border: 1px solid #000000; */
+}
+
+/* 熱門排行 */
+
+
