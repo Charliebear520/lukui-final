@@ -1,0 +1,67 @@
+.row{
+    margin:1rem 0;
+}
+
+.titlebox {
+  display: flex;
+  margin:0 1rem;
+  align-items: flex-end;
+  gap:0.5em;
+}
+
+.title1{
+    font-size: medium;
+}
+
+.title2{
+    font-size: x-large;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+
+.imagebox {
+  width: 120px;
+  height: 100%;
+}
+.iconbox {
+  margin:0.5rem 1rem;
+}
+
+.image {
+  object-fit: cover;
+  position: absolute;
+  z-index: -5;
+  width:120px;
+  height:120px;
+  border-radius: 10px;
+}
+
+.name{
+    font-size: large;
+    font-family: 'jf-openhuninn-2.0';
+}
+
+.description{
+    font-size: small;
+    font-family: 'jf-openhuninn-2.0';
+    color:#8B8B8B;
+}
