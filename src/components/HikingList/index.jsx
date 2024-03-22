@@ -1,5 +1,4 @@
 import { Row, Col, Divider } from "antd";
-import SuggestItem from "../SuggestItem";
 import Image from "next/image";
 import styles from "./suggest.module.css";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";

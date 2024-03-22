@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./nearby.module.css";
 import { FireOutlined,PlusOutlined} from "@ant-design/icons";
 
-export default function NearbyList({ nearbys }) {
+export default function NearbyFoodList({ nearbyfoods }) {
   return (
     <Row className={styles.row}>
       <Col
@@ -13,9 +13,9 @@ export default function NearbyList({ nearbys }) {
         xl={{ span: 16 }}
       >
         <Row gutter={[32, 32]} className={styles.row2}>
-          {nearbys.map((nearby) => (
+          {nearbyfoods.map((nearbyfood) => (
             <Col
-              key={nearby.id}
+              key={nearbyfood.id}
               sm={{ span: 8 }}
               md={{ span: 8 }}
               lg={{ span: 4 }}
@@ -25,7 +25,7 @@ export default function NearbyList({ nearbys }) {
                 <div className={styles.section}>
                   <div className={styles.imagebox}>
                     <Image
-                      src={nearby.image}
+                      src={nearbyfood.image}
                       width={120}
                       height={120}
                       alt="Suggest of art"
@@ -38,10 +38,10 @@ export default function NearbyList({ nearbys }) {
                   </div>
                 </div>
                 <div className={styles.section2}>
-                  <h1 className={styles.name}>{nearby.name}</h1>
+                  <h1 className={styles.name}>{nearbyfood.name}</h1>
                   <div className={styles.quantitybox}>
                     <FireOutlined />
-                    <p className={styles.description}>{nearby.quantity}</p>
+                    <p className={styles.description}>{nearbyfood.quantity}</p>
                   </div>
                 </div>
               </div>
