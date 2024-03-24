@@ -79,5 +79,32 @@
     "description": "臺北市北投區",
     "status":"營業中",
     "end_time":"18:00"
+  },
+  {
+    "id": "10",
+    "category": "Tableware",
+    "name": "基隆不知道快不快樂",
+    "image": "/華山.png",
+    "description": "9/28-9/30",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "11",
+    "category": "Temple",
+    "name": "不快樂台北",
+    "image": "/龍山寺.jpeg",
+    "description": "9/28-9/30",
+    "status":"營業中",
+    "end_time":"18:00"
+  },
+  {
+    "id": "12",
+    "category": "museum",
+    "name": "基隆不知道快不快樂",
+    "image": "/台銀.png",
+    "description": "9/28-9/30",
+    "status":"營業中",
+    "end_time":"18:00"
   }
 ]

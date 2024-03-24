@@ -1,0 +1,58 @@
+.boximg {
+  border-radius: 0 0 35px 0;
+  object-fit: cover;
+  height: revert-layer;
+
+  z-index: -5;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .boximg {
+    border-radius: 0 0 500px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .boximg {
+    border-radius: 0 0 200px 0;
+  }
+}
+
+.container {
+  height: 286px;
+  overflow: hidden;
+}
+
+.photo {
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+    height:100%;
+}
+
+.col{
+    display:flex;
+    align-items: flex-end;
+    width:100%;
+}
+
+.titlebox{
+    margin:2rem;
+}
+
+.title{
+    font-family: 'jf-openhuninn-2.0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+    letter-spacing: -0.022em;
+    
+    color: #FFFFFF;
+    
+    /* border: 1px solid #000000; */
+}
