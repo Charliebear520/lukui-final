@@ -7,8 +7,7 @@ import Image from "next/image";
 import styles from "./register.module.css";
 
 export default function RegisterDetail() {
-  const [isInline] = useMediaQuery("xl"); // (min-width: 1200px)
-
+  
   return (
     <Row className={styles.rowbox}>
       <Col

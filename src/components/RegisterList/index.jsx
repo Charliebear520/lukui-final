@@ -1,12 +1,12 @@
 "use client";
 
 import { Row, Col, Input, Button } from "antd";
-import { RadioTile, RadioTileGroup, useMediaQuery, Progress } from "rsuite";
+import { RadioTile, RadioTileGroup,  Progress } from "rsuite";
 import Image from "next/image";
 import styles from "./register.module.css";
 
 export default function RegisterList() {
-  const [isInline] = useMediaQuery("xl"); // (min-width: 1200px)
+
 
   return (
     <Row className={styles.rowbox}>
@@ -53,7 +53,7 @@ export default function RegisterList() {
             <RadioTileGroup
               defaultValue="blank"
               aria-label="Create new project"
-              inline={{ isInline }}
+          
               className={styles.radiobox}
             >
               <RadioTile label="男性" value="blank" className={styles.radio}></RadioTile>
