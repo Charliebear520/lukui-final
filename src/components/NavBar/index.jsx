@@ -1,47 +1,50 @@
-import { NavLink } from 'react-router-dom';
-import { Drawer } from 'antd';
+"use client";
 
+// import { NavLink } from 'react-router-dom';
+import { Drawer } from 'antd';
+import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
 import styles from './navbar.module.css';
 
 export default function NavBar({ open, onClose }) {
-
+    // const pathname=usePathname();
     const NavBarContent = () => (
         <>
-            <NavLink to="/products/category/tableware"
+            <Link href="/plan"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                Tableware
-            </NavLink>
-            <NavLink to="/products/category/cookware"
+                我的行程
+            </Link>
+            <Link href="/"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                Cookware
-            </NavLink>
-            <NavLink to="/products/category/home-accessories"
+                首頁
+            </Link>
+            <Link href="/userinfo"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                Home accessories
-            </NavLink>
-            <NavLink to="/products/category/lighting"
+                用戶中心
+            </Link>
+            <Link href="/"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                Lighting
-            </NavLink>
-            <NavLink to="/products/category/textile"
+                地圖
+            </Link>
+            {/* <Link to="/products/category/textile"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 Textile
-            </NavLink>
-            <NavLink to="/products/category/furniture"
+            </Link>
+            <Link to="/products/category/furniture"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 Furniture
-            </NavLink>
+            </Link> */}
         </>
     )
 
     return (
         <>
-            <div className={styles.navBar}>
+            {/* <div className={styles.navBar}>
                 <NavBarContent />
-            </div>
+            </div> */}
             <Drawer
                 title="CATEGORY"
-                placement="left"
+                placement="top"
                 onClose={onClose}
                 open={open}
             >

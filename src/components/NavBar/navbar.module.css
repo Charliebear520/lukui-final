@@ -39,9 +39,9 @@
   .navBar {
     display: flex;
   }
-  .drawer {
+  /* .drawer {
     display: none;
-  }
+  } */
 
   .navItem {
     color: white;

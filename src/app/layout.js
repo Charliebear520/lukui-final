@@ -2,6 +2,7 @@ import "./globals.css";
 import "rsuite/dist/rsuite-no-reset.min.css";
 
 import Footer from "../components/Footer";
+import Hamburger from "@/components/Hamburger";
 
 export const metadata = {
   title: {
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {/* <Header /> */}
+        <Hamburger />
         {children}
 
         <Footer />

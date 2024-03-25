@@ -1,22 +1,30 @@
 .hamMenu {
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   z-index: 9;
-  background-color: #111828;
-  width: 2.5rem;
-  height: 2.5rem;
+  background-color: #faf7f2;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 2rem;
   opacity: 0.7;
-  right: 1rem;
+  left: 1rem;
   top: 0rem;
   transition: all 0.25s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  /* transform: rotate(-180deg); */
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .showMobile {
     display: none;
   }
-}
+} */
 
 .hamMenu:hover {
   opacity: 1;
@@ -26,35 +34,32 @@
 .baseMenuBar {
   display: inline-block;
   position: relative;
-  background-color: #8183ff;
-  width: 24px;
-  height: 3px;
+  background-color: #483225;
+  width: 22px;
+  height: 2px;
 }
 
 .hamMenuBar1 {
   composes: baseMenuBar;
-  top: 16px;
+  top: 10px;
   transition: all 0.25s linear;
-  transform: rotate(-4deg);
 }
 
 .hamMenuBar2 {
   composes: baseMenuBar;
   transition: all 0.25s linear;
-  transform: rotate(2deg);
 }
 
 .hamMenuBar3 {
   composes: baseMenuBar;
-  bottom: 16px;
+  bottom: 10px;
   transition: all 0.25s linear;
-  transform: rotate(-2deg);
 }
 
 .hamMenuBar1_Touch {
   composes: hamMenuBar1;
   width: 30px;
-  top: 16px;
+  top: 12px;
   opacity: 0;
 }
 
@@ -68,8 +73,8 @@
 .hamMenuBar3_Touch {
   composes: hamMenuBar3;
   width: 30px;
-  bottom: 25px;
+  bottom: 12px;
   opacity: 1;
-  transform: rotate(-2deg);
-  transform: rotate(-45deg);
+  /* transform: rotate(-2deg); */
+  transform: rotate(-45deg) translate(-5px,5px);
 }

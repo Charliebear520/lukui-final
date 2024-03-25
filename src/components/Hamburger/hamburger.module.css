@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#FFFEE0 ;
+    padding:0 2rem;
+}
+
+.imagebox{
+    padding:1em;
+    width:80px;
+    height: 90px;
+    /* background-color: #ffffff; */
+}
