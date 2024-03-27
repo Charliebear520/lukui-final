@@ -3,6 +3,8 @@ import "rsuite/dist/rsuite-no-reset.min.css";
 
 import Footer from "../components/Footer";
 import Hamburger from "@/components/Hamburger";
+import { ConfigProvider } from "antd";
+import theme from "@/theme";
 
 export const metadata = {
   title: {
@@ -17,7 +19,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {/* <Header /> */}
-        <Hamburger />
+        <ConfigProvider theme={theme}>
+          <Hamburger />
+        </ConfigProvider>
         {children}
 
         <Footer />
