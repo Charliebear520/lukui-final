@@ -98,20 +98,22 @@ export default function NavBar({ open, onClose }) {
             </div> */}
 
       <Drawer
-        title="CATEGORY"
+        // title="CATEGORY"
+        closable={false}
         placement="top"
         onClose={onClose}
         open={open}
-        // mask={false}
+        mask={false}
         className={styles.drawerbox}
       >
         {/* {items.map((item) => (
          
         ))} */}
         <div className={styles.drawer}>
-          <Menu
+            <div>
+            <Menu
             onClick={onClick}
-            style={{ width: 256 }}
+            style={{ width: 386 }}
             defaultSelectedKeys={["1"]}
             defaultOpenKeys={["sub1"]}
             mode="inline"
@@ -158,7 +160,9 @@ export default function NavBar({ open, onClose }) {
               },
             ]}
           />
-
+            </div>
+          
+            {/* <div>hello world</div> */}
           {/* <NavBarContent /> */}
           {/* </Menu> */}
         </div>

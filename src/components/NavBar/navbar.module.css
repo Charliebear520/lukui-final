@@ -63,6 +63,10 @@
   .navItem:hover {
     color: white;
   }
+
+  .drawerbox{
+    width:50% !important;
+  }
 }
 
 .ant-drawer-header {
@@ -122,6 +126,23 @@ border-radius: 50px;
   background-color: #FFFEE0;
 }
 
+.drawerbox{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  right: 0em;
+  top: 6em;
+  overflow: auto;
+  background: #FFFEE0;
+  pointer-events: auto;
+  align-items: center;
+  position: absolute;
+  border-radius: 0px 0px 30px 30px;
+}
 
-
-
+@media (min-width: 1024px) {
+  .drawerbox{
+    width:30% !important;
+  }
+}
